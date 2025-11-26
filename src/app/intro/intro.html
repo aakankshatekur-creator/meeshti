@@ -1,0 +1,52 @@
+<div class="page">
+    <!-- White card on top of background image -->
+    <div class="card">
+      <section class="invite">
+        <h1 class="names">MEET<br>&amp;<br>PRUSHTI</h1>
+        <p class="small-text">
+          are inviting you to<br>
+          celebrate their joyous<br>
+          union
+        </p>
+        <div class="rings">💍💍</div>
+      </section>
+  
+      <hr class="divider">
+  
+      <section class="details">
+        <p class="date-line">Saturday, 20 January 2026</p>
+        <p class="venue">
+          7 o'clock in the evening<br />
+          Address
+        </p>
+  
+        <div class="countdown-block">
+          <p class="countdown-title">
+            TIME LEFT UNTIL<br />
+            <span class="highlight">THE WEDDING</span>
+          </p>
+  
+          <div class="countdown-values">
+            <div class="time-box">
+              <span class="num">{{ days }}</span>
+              <span class="label">DAYS</span>
+            </div>
+            <div class="time-box">
+              <span class="num">{{ hours }}</span>
+              <span class="label">HOURS</span>
+            </div>
+            <div class="time-box">
+              <span class="num">{{ minutes }}</span>
+              <span class="label">MINUTES</span>
+            </div>
+            <div class="time-box">
+              <span class="num seconds">{{ seconds }}</span>
+              <span class="label">SECONDS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <button (click)="events()" class="event">event details</button>
+    </div>
+  </div>
+  
