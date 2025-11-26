@@ -19,7 +19,7 @@
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("assets/images/bg.jpg"); /* change if you want */
+    background-image: url("../../assets/images/bg.jpg"); /* change if you want */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
